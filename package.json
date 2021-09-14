@@ -79,6 +79,7 @@
   },
   "scripts": {
     "post": "gatsby-post-gen",
+    "pub": "gh-pages -d ./public/",
     "dev": "gatsby develop",
     "lint": "eslint --ext .js,.jsx --ignore-pattern public .",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js' 'src/**/*.md'",
